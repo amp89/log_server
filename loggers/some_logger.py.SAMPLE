@@ -1,0 +1,20 @@
+from utils import *
+import time
+import os
+
+def print_nonsense(log_name, post_data):
+    log_str = get_log_str(post_data)
+    print("Print stuff: {log_str}")
+
+
+
+def wait_five_seconds_and_print_nonsense(log_name, post_data):
+    time.sleep(5)
+    print("jhafoiasnoirauwyoitunayw")
+    get_log_str(post_data)
+    # os.fork()
+
+logger_data = {
+    "key": "62ht5qiuwty4cji78ywnoc87tycwk98rt", # Make this random
+    "callbacks":[print_nonsense,wait_five_seconds_and_print_nonsense,],
+}

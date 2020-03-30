@@ -1,0 +1,8 @@
+*.pyc
+*.log
+*.log.*
+*ipynb*
+loggers/*.py
+__pycache__
+notebooks/
+venv/
